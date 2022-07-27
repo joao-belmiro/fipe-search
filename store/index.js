@@ -36,7 +36,7 @@ export const mutations = {
   setFipeHistory (state, fipeHistory) {
     fipeHistory.reverse()
     state.fipeHistory.months = fipeHistory.map(history => history.month)
-    state.fipeHistory.values = fipeHistory.map(history => parseFloat(history.price.replace('R$ ', '').replace('.', '').replace(',', '.')))
+    state.fipeHistory.values = fipeHistory.map(history => parseFloat(history.price.replace('R$ ', '').replaceAll('.', '').replace(',', '.')))
   },
   setAllFetched (state, allFetched) {
     state.allFetched = allFetched
