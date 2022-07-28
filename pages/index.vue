@@ -28,7 +28,7 @@ body {
    background-color: #8c91ab;
 }
 main {
-  min-height: 65vh;
+  min-height: 70vh;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
