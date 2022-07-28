@@ -1,4 +1,21 @@
 # fipe-search
+Aplicação para buscar o preço do veiculo e um histórico de 3 meses de acordo com a tabela fipe
+
+o projeto possui uma arquitetura simples sendo dividida em componenetes e uma instância do vuex para compartilhamento de estado, pois há ums divisão de responsabilidades entre os componenetes, logo é necessário centralizar algumas variáveis
+
+Tecnologias utlizadas
+
+  1. Nuxt 2.x.x
+  2. Vuex
+  3. HTML5
+  4. CSS
+  5. Chart.js
+
+Foi utlizada api deste repositório para buscar os dados utilizados
+
+[**Repo fipe**](https://github.com/deividfortuna/fipe)
+
+[**Documentação da API FIPE**](http://deividfortuna.github.io/fipe/v2/)
 
 ## Build Setup
 
